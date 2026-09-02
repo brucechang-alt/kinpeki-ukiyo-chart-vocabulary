@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="t-变形统计地图示例 d-变形统计地图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="t-变形统计地图示例">变形统计地图示例</title>
+  <desc id="d-变形统计地图示例">区域形状被简化，面积随数量改变。</desc>
+  <circle cx="80" cy="70" r="28" fill="#9ed0ab" stroke="#0069a6" stroke-width="2"/>
+  <text x="80" y="74" class="value" text-anchor="middle">A</text>
+  <circle cx="135" cy="55" r="38" fill="#9ed0ab" stroke="#0069a6" stroke-width="2"/>
+  <text x="135" y="59" class="value" text-anchor="middle">B</text>
+  <circle cx="206" cy="82" r="24" fill="#9ed0ab" stroke="#0069a6" stroke-width="2"/>
+  <text x="206" y="86" class="value" text-anchor="middle">C</text>
+  <circle cx="278" cy="61" r="44" fill="#f5a08b" stroke="#e24832" stroke-width="2"/>
+  <text x="278" y="65" class="value" text-anchor="middle">D</text>
+  <circle cx="112" cy="132" r="31" fill="#9ed0ab" stroke="#0069a6" stroke-width="2"/>
+  <text x="112" y="136" class="value" text-anchor="middle">E</text>
+  <circle cx="196" cy="132" r="37" fill="#9ed0ab" stroke="#0069a6" stroke-width="2"/>
+  <text x="196" y="136" class="value" text-anchor="middle">F</text>
+  <circle cx="273" cy="132" r="25" fill="#9ed0ab" stroke="#0069a6" stroke-width="2"/>
+  <text x="273" y="136" class="value" text-anchor="middle">G</text>
+</svg>
