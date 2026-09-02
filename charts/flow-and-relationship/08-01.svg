@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="t-桑基图示例 d-桑基图示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="t-桑基图示例">桑基图示例</title>
+  <desc id="d-桑基图示例">连线宽度表示从来源到去向的可加总流量。</desc>
+  <rect x="38" y="35" width="14" height="110" fill="#47433b"/>
+  <rect x="174" y="30" width="14" height="54" fill="#0069a6"/>
+  <rect x="174" y="104" width="14" height="43" fill="#e24832"/>
+  <rect x="326" y="25" width="14" height="42" fill="#3a8a5c"/>
+  <rect x="326" y="78" width="14" height="35" fill="#e2a228"/>
+  <rect x="326" y="126" width="14" height="28" fill="#8d4b8e"/>
+  <path d="M52,45 C100,45 126,40 174,40 L174,74 C126,74 100,79 52,79 Z" fill="#8cc7df" stroke="none" opacity="0.8"/>
+  <path d="M52,85 C106,85 120,110 174,110 L174,142 C120,142 106,119 52,119 Z" fill="#f5a08b" stroke="none" opacity="0.8"/>
+  <path d="M188,38 C245,38 270,32 326,32 L326,62 C270,62 245,68 188,68 Z" fill="#3a8a5c" stroke="none" opacity="0.6"/>
+  <path d="M188,112 C245,112 271,132 326,132 L326,151 C271,151 245,133 188,133 Z" fill="#8d4b8e" stroke="none" opacity="0.5"/>
+  <text x="38" y="166" class="axis-title" text-anchor="start">来源</text>
+  <text x="181" y="166" class="axis-title" text-anchor="middle">过程</text>
+  <text x="340" y="166" class="axis-title" text-anchor="end">去向</text>
+</svg>
