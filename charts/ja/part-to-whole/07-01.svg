@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="chart-46-title chart-46-desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="chart-46-title">積み上げ縦棒</title>
+  <desc id="chart-46-desc">期ごとの総量と構成はどう同時に変わるか？</desc>
+  <line x1="38" y1="158" x2="340" y2="158" class="axis"/>
+  <line x1="38" y1="20" x2="38" y2="158" class="axis"/>
+  <text x="189" y="184" class="axis-title" text-anchor="middle" data-axis="x">期間</text>
+  <text x="12" y="90" class="axis-title" text-anchor="middle" transform="rotate(-90 12 90)" data-axis="y">総量</text>
+  <rect x="63" y="123" width="32" height="35" fill="#0069a6"/>
+  <rect x="63" y="95.5" width="32" height="27.5" fill="#8cc7df"/>
+  <rect x="63" y="73" width="32" height="22.5" fill="#e2a228"/>
+  <rect x="63" y="58" width="32" height="15" fill="#f5a08b"/>
+  <text x="79" y="176" class="tick" text-anchor="middle">第1期</text>
+  <rect x="118" y="119.25" width="32" height="38.75" fill="#0069a6"/>
+  <rect x="118" y="89.25" width="32" height="30" fill="#8cc7df"/>
+  <rect x="118" y="65.5" width="32" height="23.75" fill="#e2a228"/>
+  <rect x="118" y="48" width="32" height="17.5" fill="#f5a08b"/>
+  <text x="134" y="176" class="tick" text-anchor="middle">第2期</text>
+  <rect x="173" y="115.5" width="32" height="42.5" fill="#0069a6"/>
+  <rect x="173" y="83" width="32" height="32.5" fill="#8cc7df"/>
+  <rect x="173" y="58" width="32" height="25" fill="#e2a228"/>
+  <rect x="173" y="38" width="32" height="20" fill="#f5a08b"/>
+  <text x="189" y="176" class="tick" text-anchor="middle">第3期</text>
+  <rect x="228" y="111.75" width="32" height="46.25" fill="#0069a6"/>
+  <rect x="228" y="76.75" width="32" height="35" fill="#8cc7df"/>
+  <rect x="228" y="50.5" width="32" height="26.25" fill="#e2a228"/>
+  <rect x="228" y="28" width="32" height="22.5" fill="#f5a08b"/>
+  <text x="244" y="176" class="tick" text-anchor="middle">第4期</text>
+  <rect x="283" y="108" width="32" height="50" fill="#0069a6"/>
+  <rect x="283" y="70.5" width="32" height="37.5" fill="#8cc7df"/>
+  <rect x="283" y="43" width="32" height="27.5" fill="#e2a228"/>
+  <rect x="283" y="18" width="32" height="25" fill="#f5a08b"/>
+  <text x="299" y="176" class="tick" text-anchor="middle">第5期</text>
+</svg>

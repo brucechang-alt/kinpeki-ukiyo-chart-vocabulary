@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="chart-53-title chart-53-desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="chart-53-title">ワッフルチャート</title>
+  <desc id="chart-53-desc">百分率を数えられる100単位にどう変換するか？</desc>
+  <rect x="72" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="94" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="116" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="138" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="160" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="182" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="204" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="226" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="248" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="270" y="20" width="16" height="11" fill="#0069a6"/>
+  <rect x="72" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="94" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="116" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="138" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="160" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="182" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="204" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="226" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="248" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="270" y="35" width="16" height="11" fill="#0069a6"/>
+  <rect x="72" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="94" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="116" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="138" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="160" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="182" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="204" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="226" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="248" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="270" y="50" width="16" height="11" fill="#0069a6"/>
+  <rect x="72" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="94" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="116" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="138" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="160" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="182" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="204" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="226" y="65" width="16" height="11" fill="#0069a6"/>
+  <rect x="248" y="65" width="16" height="11" fill="#8cc7df"/>
+  <rect x="270" y="65" width="16" height="11" fill="#8cc7df"/>
+  <rect x="72" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="94" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="116" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="138" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="160" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="182" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="204" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="226" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="248" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="270" y="80" width="16" height="11" fill="#8cc7df"/>
+  <rect x="72" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="94" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="116" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="138" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="160" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="182" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="204" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="226" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="248" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="270" y="95" width="16" height="11" fill="#8cc7df"/>
+  <rect x="72" y="110" width="16" height="11" fill="#8cc7df"/>
+  <rect x="94" y="110" width="16" height="11" fill="#8cc7df"/>
+  <rect x="116" y="110" width="16" height="11" fill="#8cc7df"/>
+  <rect x="138" y="110" width="16" height="11" fill="#8cc7df"/>
+  <rect x="160" y="110" width="16" height="11" fill="#8cc7df"/>
+  <rect x="182" y="110" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="204" y="110" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="226" y="110" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="248" y="110" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="270" y="110" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="72" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="94" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="116" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="138" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="160" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="182" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="204" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="226" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="248" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="270" y="125" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="72" y="140" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="94" y="140" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="116" y="140" width="16" height="11" fill="#3a8a5c"/>
+  <rect x="138" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="160" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="182" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="204" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="226" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="248" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="270" y="140" width="16" height="11" fill="#e2a228"/>
+  <rect x="72" y="155" width="16" height="11" fill="#e2a228"/>
+  <rect x="94" y="155" width="16" height="11" fill="#e2a228"/>
+  <rect x="116" y="155" width="16" height="11" fill="#e2a228"/>
+  <rect x="138" y="155" width="16" height="11" fill="#e2a228"/>
+  <rect x="160" y="155" width="16" height="11" fill="#f5a08b"/>
+  <rect x="182" y="155" width="16" height="11" fill="#f5a08b"/>
+  <rect x="204" y="155" width="16" height="11" fill="#f5a08b"/>
+  <rect x="226" y="155" width="16" height="11" fill="#f5a08b"/>
+  <rect x="248" y="155" width="16" height="11" fill="#f5a08b"/>
+  <rect x="270" y="155" width="16" height="11" fill="#f5a08b"/>
+  <text x="180" y="181" class="axis-title" text-anchor="middle">1マス＝1%</text>
+</svg>
