@@ -1,0 +1,94 @@
+{
+  "lang": "en",
+  "label": "English",
+  "title": "Kinpeki Ukiyo Chart Vocabulary",
+  "description": "Nine information relationships, 67 editable charts, and a modern data-visualisation system joining kinpeki screen structure with ukiyo-e print grammar.",
+  "eyebrow": "KINPEKI UKIYO CHART VOCABULARY · V1.0",
+  "hero1": "Kinpeki Ukiyo",
+  "hero2": "Chart Vocabulary",
+  "lede": "Kano-school kinpeki screens provide spatial order; ukiyo-e colour woodblocks provide graphic grammar. Nine information relationships and 67 forms let style serve judgement instead of obscuring data.",
+  "download": "Download poster",
+  "browse": "Browse all charts",
+  "source": "View poster source",
+  "stat1": "information families",
+  "stat2": "editable SVGs",
+  "stat3": "maximum category colours",
+  "nav": [
+    "Original print",
+    "Design language",
+    "Palette",
+    "67 charts",
+    "Use and licence"
+  ],
+  "art_kicker": "ORIGINAL PRINT · PUBLIC DOMAIN",
+  "art_title": "See the chart language in The Great Wave",
+  "art_caption": "Katsushika Hokusai, Under the Wave off Kanagawa (The Great Wave), ca. 1830–32, colour woodblock print. The Metropolitan Museum of Art, JP2972. Public Domain image via The Met Open Access.",
+  "art_points": [
+    [
+      "Keyline",
+      "Ink contours keep wave, boats and Fuji legible inside a complex scene."
+    ],
+    [
+      "Blue hierarchy",
+      "A limited set of blue tones creates depth and force without unlimited hues."
+    ],
+    [
+      "Oblique movement",
+      "Wave crest, boats and mountain establish a clear directional reading path."
+    ],
+    [
+      "Negative space",
+      "Sky and the hollow of the wave make Fuji a stable visual anchor."
+    ]
+  ],
+  "idea_kicker": "A CONTEMPORARY SYNTHESIS",
+  "idea_title": "Not retro decoration: an executable visual contract",
+  "ideas": [
+    [
+      "Screen rhythm organises the page",
+      "Gold is reserved for seams, headings and references; shell-white paper keeps the plot quiet."
+    ],
+    [
+      "Keylines discipline the data",
+      "Filled marks retain ink outlines; axes, baselines and references share one stroke system."
+    ],
+    [
+      "Every colour has a job",
+      "New-impression Prussian blue carries primary data and vivid vermilion marks focus; multi-category charts stop at five roots."
+    ],
+    [
+      "Decoration never changes scale",
+      "Cuts, seals and screen seams stay outside the plot; length, area, width and map position remain truthful."
+    ]
+  ],
+  "palette_kicker": "NEW-IMPRESSION HIGH-CHROMA PALETTE",
+  "palette_title": "Nine roles, not nine arbitrary colours",
+  "palette_note": "Prefer one Prussian-blue root for a single series, cap binary comparison at two non-neutral roots, and use up to five only when category identity matters. Vivid colours belong to data marks; small text uses darker tonal partners. Never use gradients inside marks.",
+  "chart_kicker": "9 FAMILIES · 67 EDITABLE SVGS",
+  "chart_title": "Choose the relationship, then the form",
+  "chart_intro": "Every example retains an ink keyline. Multi-series lines also change dash pattern; filled forms use outlines or direct labels so structure survives grayscale and low-brightness screens.",
+  "all": "All",
+  "download_svg": "Download SVG",
+  "license_kicker": "USE WITH ATTRIBUTION · BRAND RESERVED",
+  "license_title": "Reuse the charts; do not misuse the brand",
+  "license_items": [
+    [
+      "Code",
+      "HTML, CSS, JSON and build scripts use the MIT License."
+    ],
+    [
+      "Design",
+      "Posters, SVG charts and documentation use CC BY 4.0 with attribution."
+    ],
+    [
+      "Original print",
+      "The Great Wave reference image is Public Domain; retain artwork and source information."
+    ],
+    [
+      "Brand",
+      "The AI Reporter name and logo are excluded from the open licences and cannot imply endorsement."
+    ]
+  ],
+  "footer": "Kinpeki screen structure × ukiyo-e print grammar × modern data rules",
+  "local": "English edition"
+}
