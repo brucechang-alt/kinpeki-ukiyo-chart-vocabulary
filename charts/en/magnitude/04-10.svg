@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="chart-32-title chart-32-desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="chart-32-title">Parallel coordinates</title>
+  <desc id="chart-32-desc">What patterns and outliers appear across many measures?</desc>
+  <line x1="52" y1="30" x2="52" y2="155" class="axis"/>
+  <text x="52" y="177" class="tick" text-anchor="middle">A</text>
+  <line x1="116" y1="30" x2="116" y2="155" class="axis"/>
+  <text x="116" y="177" class="tick" text-anchor="middle">B</text>
+  <line x1="180" y1="30" x2="180" y2="155" class="axis"/>
+  <text x="180" y="177" class="tick" text-anchor="middle">C</text>
+  <line x1="244" y1="30" x2="244" y2="155" class="axis"/>
+  <text x="244" y="177" class="tick" text-anchor="middle">D</text>
+  <line x1="308" y1="30" x2="308" y2="155" class="axis"/>
+  <text x="308" y="177" class="tick" text-anchor="middle">E</text>
+  <polyline points="52,130 116,92.5 180,55 244,105 308,67.5" fill="none" stroke="#0069a6" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,80 116,117.5 180,92.5 244,55 308,98.75" fill="none" stroke="#0069a6" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,111.25 116,61.25 180,80 244,123.75 308,55" fill="none" stroke="#0069a6" stroke-width="1.5" opacity="0.5"/>
+  <polyline points="52,55 116,86.25 180,117.5 244,73.75 308,92.5" fill="none" stroke="#e24832" stroke-width="3" opacity="1"/>
+  <polyline points="52,95 116,105 180,65 244,86.25 308,115" fill="none" stroke="#0069a6" stroke-width="1.5" opacity="0.5"/>
+</svg>
