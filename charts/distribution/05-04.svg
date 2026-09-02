@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="t-人口金字塔示例 d-人口金字塔示例" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="t-人口金字塔示例">人口金字塔示例</title>
+  <desc id="d-人口金字塔示例">两个群体在相同年龄层上左右对称。</desc>
+  <line x1="180" y1="18" x2="180" y2="168" class="zero"/>
+  <rect x="141.5" y="25" width="38.5" height="16" fill="#f5a08b"/>
+  <rect x="180" y="25" width="45.5" height="16" fill="#0069a6"/>
+  <text x="174" y="37" class="value" text-anchor="end">70+</text>
+  <rect x="118.75" y="47" width="61.25" height="16" fill="#f5a08b"/>
+  <rect x="180" y="47" width="70" height="16" fill="#0069a6"/>
+  <text x="174" y="59" class="value" text-anchor="end">60</text>
+  <rect x="96" y="69" width="84" height="16" fill="#f5a08b"/>
+  <rect x="180" y="69" width="89.25" height="16" fill="#0069a6"/>
+  <text x="174" y="81" class="value" text-anchor="end">50</text>
+  <rect x="71.5" y="91" width="108.5" height="16" fill="#f5a08b"/>
+  <rect x="180" y="91" width="101.5" height="16" fill="#0069a6"/>
+  <text x="174" y="103" class="value" text-anchor="end">40</text>
+  <rect x="83.75" y="113" width="96.25" height="16" fill="#f5a08b"/>
+  <rect x="180" y="113" width="85.75" height="16" fill="#0069a6"/>
+  <text x="174" y="125" class="value" text-anchor="end">30</text>
+  <rect x="111.75" y="135" width="68.25" height="16" fill="#f5a08b"/>
+  <rect x="180" y="135" width="57.75" height="16" fill="#0069a6"/>
+  <text x="174" y="147" class="value" text-anchor="end">20</text>
+  <text x="92" y="181" class="axis-title" text-anchor="middle">群体甲</text>
+  <text x="268" y="181" class="axis-title" text-anchor="middle">群体乙</text>
+</svg>
