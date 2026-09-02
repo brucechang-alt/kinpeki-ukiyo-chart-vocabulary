@@ -1,0 +1,484 @@
+{
+  "project": "Kinpeki Ukiyo Chart Vocabulary",
+  "version": "1.0.0",
+  "chart_count": 67,
+  "families": [
+    {
+      "id": 1,
+      "name": "Change over time",
+      "question": "What are the trend, rhythm, turning points and duration?",
+      "directory": "change",
+      "charts": [
+        {
+          "id": 1,
+          "name": "Line chart",
+          "question": "What are the shape and turning points of a continuous trend?",
+          "file": "charts/en/change/01-01.svg"
+        },
+        {
+          "id": 2,
+          "name": "Time column chart",
+          "question": "How much occurred in each discrete period?",
+          "file": "charts/en/change/01-02.svg"
+        },
+        {
+          "id": 3,
+          "name": "Time line + column chart",
+          "question": "Do a total and a rate change together?",
+          "file": "charts/en/change/01-03.svg"
+        },
+        {
+          "id": 4,
+          "name": "OHLC range chart",
+          "question": "What are each period's open, high, low, close and range?",
+          "file": "charts/en/change/01-04.svg"
+        },
+        {
+          "id": 5,
+          "name": "Time slope chart",
+          "question": "What changed between two key moments?",
+          "file": "charts/en/change/01-05.svg"
+        },
+        {
+          "id": 6,
+          "name": "Area chart",
+          "question": "How does filled area convey changing or accumulating magnitude?",
+          "file": "charts/en/change/01-06.svg"
+        },
+        {
+          "id": 7,
+          "name": "Fan forecast chart",
+          "question": "How do a central forecast and its uncertainty expand?",
+          "file": "charts/en/change/01-07.svg"
+        },
+        {
+          "id": 8,
+          "name": "Connected time scatter",
+          "question": "How does the joint state of two measures move over time?",
+          "file": "charts/en/change/01-08.svg"
+        },
+        {
+          "id": 9,
+          "name": "Calendar heatmap",
+          "question": "On which dates do high or low values cluster?",
+          "file": "charts/en/change/01-09.svg"
+        },
+        {
+          "id": 10,
+          "name": "Priestley timeline",
+          "question": "How long do multiple events last and overlap?",
+          "file": "charts/en/change/01-10.svg"
+        },
+        {
+          "id": 11,
+          "name": "Circular time cycle",
+          "question": "Does an event repeat by day, week or year?",
+          "file": "charts/en/change/01-11.svg"
+        },
+        {
+          "id": 12,
+          "name": "Seismic event plot",
+          "question": "When are high-frequency events dense and how strong are they?",
+          "file": "charts/en/change/01-12.svg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ranking",
+      "question": "Who is highest or lowest, and how large are the gaps?",
+      "directory": "ranking",
+      "charts": [
+        {
+          "id": 13,
+          "name": "Ranked bar chart",
+          "question": "What is the order among categories with long labels?",
+          "file": "charts/en/ranking/02-01.svg"
+        },
+        {
+          "id": 14,
+          "name": "Ranked column chart",
+          "question": "What are the rank and gaps among short-label categories?",
+          "file": "charts/en/ranking/02-02.svg"
+        },
+        {
+          "id": 15,
+          "name": "Ranked proportional symbols",
+          "question": "How can rank and magnitude be read when sizes differ greatly?",
+          "file": "charts/en/ranking/02-03.svg"
+        },
+        {
+          "id": 16,
+          "name": "Ranked strip plot",
+          "question": "How are many objects arranged along one scale?",
+          "file": "charts/en/ranking/02-04.svg"
+        },
+        {
+          "id": 17,
+          "name": "Slopegraph",
+          "question": "Who rises or falls, and do ranks reverse between two moments?",
+          "file": "charts/en/ranking/02-05.svg"
+        },
+        {
+          "id": 18,
+          "name": "Lollipop chart",
+          "question": "Which ranked values deserve emphasis?",
+          "file": "charts/en/ranking/02-06.svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Deviation",
+      "question": "How far does each value diverge from the same benchmark?",
+      "directory": "deviation",
+      "charts": [
+        {
+          "id": 19,
+          "name": "Diverging bar chart",
+          "question": "Which categories are above or below one benchmark?",
+          "file": "charts/en/deviation/03-01.svg"
+        },
+        {
+          "id": 20,
+          "name": "Diverging stacked bar",
+          "question": "How are negative and positive responses composed?",
+          "file": "charts/en/deviation/03-02.svg"
+        },
+        {
+          "id": 21,
+          "name": "Spine chart",
+          "question": "Do two shares cross a 50% dividing line?",
+          "file": "charts/en/deviation/03-03.svg"
+        },
+        {
+          "id": 22,
+          "name": "Surplus / deficit area",
+          "question": "When does a series cross its benchmark, and by how much?",
+          "file": "charts/en/deviation/03-04.svg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Magnitude",
+      "question": "How different are the absolute sizes of the objects?",
+      "directory": "magnitude",
+      "charts": [
+        {
+          "id": 23,
+          "name": "Column chart",
+          "question": "How do absolute values compare across short-label categories?",
+          "file": "charts/en/magnitude/04-01.svg"
+        },
+        {
+          "id": 24,
+          "name": "Bar chart",
+          "question": "How do absolute values compare across long-label categories?",
+          "file": "charts/en/magnitude/04-02.svg"
+        },
+        {
+          "id": 25,
+          "name": "Paired columns",
+          "question": "How do two same-unit values compare within each category?",
+          "file": "charts/en/magnitude/04-03.svg"
+        },
+        {
+          "id": 26,
+          "name": "Paired bars",
+          "question": "How far apart are two values for long-label categories?",
+          "file": "charts/en/magnitude/04-04.svg"
+        },
+        {
+          "id": 27,
+          "name": "Proportional stacked bars",
+          "question": "How can magnitude and share be read within one total?",
+          "file": "charts/en/magnitude/04-05.svg"
+        },
+        {
+          "id": 28,
+          "name": "Proportional symbols",
+          "question": "How can very large size differences be compressed?",
+          "file": "charts/en/magnitude/04-06.svg"
+        },
+        {
+          "id": 29,
+          "name": "Unit pictogram",
+          "question": "Can whole or approximate amounts be shown with a fixed unit?",
+          "file": "charts/en/magnitude/04-07.svg"
+        },
+        {
+          "id": 30,
+          "name": "Lollipop comparison",
+          "question": "How can visual ink be reduced while preserving comparison?",
+          "file": "charts/en/magnitude/04-08.svg"
+        },
+        {
+          "id": 31,
+          "name": "Radar chart",
+          "question": "What are the profiles of a few objects across standardised measures?",
+          "file": "charts/en/magnitude/04-09.svg"
+        },
+        {
+          "id": 32,
+          "name": "Parallel coordinates",
+          "question": "What patterns and outliers appear across many measures?",
+          "file": "charts/en/magnitude/04-10.svg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Distribution",
+      "question": "How are values concentrated, dispersed or skewed?",
+      "directory": "distribution",
+      "charts": [
+        {
+          "id": 33,
+          "name": "Histogram",
+          "question": "What are the shape and peaks of a continuous distribution?",
+          "file": "charts/en/distribution/05-01.svg"
+        },
+        {
+          "id": 34,
+          "name": "Box plot",
+          "question": "How do medians, quartiles and outliers compare?",
+          "file": "charts/en/distribution/05-02.svg"
+        },
+        {
+          "id": 35,
+          "name": "Violin plot",
+          "question": "Is the density multi-modal or skewed?",
+          "file": "charts/en/distribution/05-03.svg"
+        },
+        {
+          "id": 36,
+          "name": "Population pyramid",
+          "question": "How do two exclusive groups distribute across ordered ages?",
+          "file": "charts/en/distribution/05-04.svg"
+        },
+        {
+          "id": 37,
+          "name": "Strip distribution",
+          "question": "Where is every observation and where are clusters?",
+          "file": "charts/en/distribution/05-05.svg"
+        },
+        {
+          "id": 38,
+          "name": "Dot stack",
+          "question": "How do frequencies accumulate at discrete values?",
+          "file": "charts/en/distribution/05-06.svg"
+        },
+        {
+          "id": 39,
+          "name": "Barcode plot",
+          "question": "Where is one-dimensional data dense or sparse?",
+          "file": "charts/en/distribution/05-07.svg"
+        },
+        {
+          "id": 40,
+          "name": "Cumulative distribution",
+          "question": "What share of observations falls below a threshold?",
+          "file": "charts/en/distribution/05-08.svg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Correlation",
+      "question": "Do two or three variables move together?",
+      "directory": "correlation",
+      "charts": [
+        {
+          "id": 41,
+          "name": "Scatter plot",
+          "question": "Are two continuous variables related?",
+          "file": "charts/en/correlation/06-01.svg"
+        },
+        {
+          "id": 42,
+          "name": "Line + column combination",
+          "question": "Does one measure move with another?",
+          "file": "charts/en/correlation/06-02.svg"
+        },
+        {
+          "id": 43,
+          "name": "Connected scatter",
+          "question": "How does a joint two-variable position move over time?",
+          "file": "charts/en/correlation/06-03.svg"
+        },
+        {
+          "id": 44,
+          "name": "Bubble chart",
+          "question": "Does a third measure change the reading of a 2D relationship?",
+          "file": "charts/en/correlation/06-04.svg"
+        },
+        {
+          "id": 45,
+          "name": "2D heatmap",
+          "question": "Where do two ordered dimensions concentrate?",
+          "file": "charts/en/correlation/06-05.svg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Part to whole",
+      "question": "How do the parts make up a whole?",
+      "directory": "part-to-whole",
+      "charts": [
+        {
+          "id": 46,
+          "name": "Stacked columns",
+          "question": "How do total and composition change together by period?",
+          "file": "charts/en/part-to-whole/07-01.svg"
+        },
+        {
+          "id": 47,
+          "name": "100% stacked bars",
+          "question": "How do proportional compositions compare across groups?",
+          "file": "charts/en/part-to-whole/07-02.svg"
+        },
+        {
+          "id": 48,
+          "name": "Pie chart",
+          "question": "What are the rough shares of a few parts?",
+          "file": "charts/en/part-to-whole/07-03.svg"
+        },
+        {
+          "id": 49,
+          "name": "Donut chart",
+          "question": "How much do the main parts occupy within one whole?",
+          "file": "charts/en/part-to-whole/07-04.svg"
+        },
+        {
+          "id": 50,
+          "name": "Treemap",
+          "question": "What are the largest area shares in a hierarchy?",
+          "file": "charts/en/part-to-whole/07-05.svg"
+        },
+        {
+          "id": 51,
+          "name": "Voronoi composition",
+          "question": "Can irregular regions express shares of a whole?",
+          "file": "charts/en/part-to-whole/07-06.svg"
+        },
+        {
+          "id": 52,
+          "name": "Arc composition",
+          "question": "How complete is a total or staged progress?",
+          "file": "charts/en/part-to-whole/07-07.svg"
+        },
+        {
+          "id": 53,
+          "name": "Waffle chart",
+          "question": "How can a percentage become 100 countable units?",
+          "file": "charts/en/part-to-whole/07-08.svg"
+        },
+        {
+          "id": 54,
+          "name": "Set relationship",
+          "question": "What is unique to, or shared by, two sets?",
+          "file": "charts/en/part-to-whole/07-09.svg"
+        },
+        {
+          "id": 55,
+          "name": "Waterfall chart",
+          "question": "How do additions and subtractions bridge a start to an end?",
+          "file": "charts/en/part-to-whole/07-10.svg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Flow and relationships",
+      "question": "How do things move between states, places or actors?",
+      "directory": "flow-and-relationship",
+      "charts": [
+        {
+          "id": 56,
+          "name": "Sankey diagram",
+          "question": "How is an additive total allocated from sources to destinations?",
+          "file": "charts/en/flow-and-relationship/08-01.svg"
+        },
+        {
+          "id": 57,
+          "name": "Waterfall bridge",
+          "question": "How do successive changes push a start to an end?",
+          "file": "charts/en/flow-and-relationship/08-02.svg"
+        },
+        {
+          "id": 58,
+          "name": "Chord diagram",
+          "question": "How large are two-way links among a few groups?",
+          "file": "charts/en/flow-and-relationship/08-03.svg"
+        },
+        {
+          "id": 59,
+          "name": "Network graph",
+          "question": "Who connects to whom, and where are hubs, communities and bridges?",
+          "file": "charts/en/flow-and-relationship/08-04.svg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Spatial",
+      "question": "Is location or geographic pattern more important than an exact value?",
+      "directory": "spatial",
+      "charts": [
+        {
+          "id": 60,
+          "name": "Choropleth map",
+          "question": "How do rates or standardised measures vary across regions?",
+          "file": "charts/en/spatial/09-01.svg"
+        },
+        {
+          "id": 61,
+          "name": "Proportional symbol map",
+          "question": "How large is an absolute amount at each place?",
+          "file": "charts/en/spatial/09-02.svg"
+        },
+        {
+          "id": 62,
+          "name": "Flow map",
+          "question": "Where do objects move from and to?",
+          "file": "charts/en/spatial/09-03.svg"
+        },
+        {
+          "id": 63,
+          "name": "Contour map",
+          "question": "Where does a continuous surface reach equal values?",
+          "file": "charts/en/spatial/09-04.svg"
+        },
+        {
+          "id": 64,
+          "name": "Equal-area cartogram",
+          "question": "How can real area be removed from regional comparison?",
+          "file": "charts/en/spatial/09-05.svg"
+        },
+        {
+          "id": 65,
+          "name": "Area cartogram",
+          "question": "How can region area directly encode an amount?",
+          "file": "charts/en/spatial/09-06.svg"
+        },
+        {
+          "id": 66,
+          "name": "Dot-density map",
+          "question": "Where is an amount roughly concentrated within a region?",
+          "file": "charts/en/spatial/09-07.svg"
+        },
+        {
+          "id": 67,
+          "name": "Spatial heatmap",
+          "question": "Where are continuous high-density hotspots?",
+          "file": "charts/en/spatial/09-08.svg"
+        }
+      ]
+    }
+  ],
+  "design_language": "Contemporary synthesis inspired by Kano-school kinpeki screens and ukiyo-e woodblock print grammar",
+  "palette": "tokens/kinpeki-ukiyo-colors.json",
+  "locale": "en"
+}

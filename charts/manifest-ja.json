@@ -1,0 +1,484 @@
+{
+  "project": "金碧浮世・チャート語彙",
+  "version": "1.0.0",
+  "chart_count": 67,
+  "families": [
+    {
+      "id": 1,
+      "name": "時間変化",
+      "question": "傾向、周期、転換点、継続時間はどうなっているか？",
+      "directory": "change",
+      "charts": [
+        {
+          "id": 1,
+          "name": "折れ線グラフ",
+          "question": "連続する傾向の形と転換点はどこか？",
+          "file": "charts/ja/change/01-01.svg"
+        },
+        {
+          "id": 2,
+          "name": "時系列縦棒グラフ",
+          "question": "各期間にどの程度発生したか？",
+          "file": "charts/ja/change/01-02.svg"
+        },
+        {
+          "id": 3,
+          "name": "時系列折れ線＋縦棒",
+          "question": "総量と比率は同時に変化しているか？",
+          "file": "charts/ja/change/01-03.svg"
+        },
+        {
+          "id": 4,
+          "name": "OHLCレンジチャート",
+          "question": "各期の始値・高値・安値・終値と変動幅は？",
+          "file": "charts/ja/change/01-04.svg"
+        },
+        {
+          "id": 5,
+          "name": "時点スロープチャート",
+          "question": "二つの重要時点の間で何が変化したか？",
+          "file": "charts/ja/change/01-05.svg"
+        },
+        {
+          "id": 6,
+          "name": "面グラフ",
+          "question": "時間とともに変化・蓄積する規模をどう示すか？",
+          "file": "charts/ja/change/01-06.svg"
+        },
+        {
+          "id": 7,
+          "name": "ファンチャート",
+          "question": "中心予測と不確実性の範囲はどう広がるか？",
+          "file": "charts/ja/change/01-07.svg"
+        },
+        {
+          "id": 8,
+          "name": "時系列接続散布図",
+          "question": "二指標の組み合わせは時間とともにどう移動するか？",
+          "file": "charts/ja/change/01-08.svg"
+        },
+        {
+          "id": 9,
+          "name": "カレンダーヒートマップ",
+          "question": "高値・低値は一年のどの日に集中するか？",
+          "file": "charts/ja/change/01-09.svg"
+        },
+        {
+          "id": 10,
+          "name": "プリーストリー・タイムライン",
+          "question": "複数事象の期間と重なりはどうなっているか？",
+          "file": "charts/ja/change/01-10.svg"
+        },
+        {
+          "id": 11,
+          "name": "円形周期チャート",
+          "question": "事象は日・週・年の周期で繰り返すか？",
+          "file": "charts/ja/change/01-11.svg"
+        },
+        {
+          "id": 12,
+          "name": "地震波型イベント図",
+          "question": "高頻度事象はいつ集中し、強度はどの程度か？",
+          "file": "charts/ja/change/01-12.svg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ランキング",
+      "question": "最高・最低はどれで、順位差はどの程度か？",
+      "directory": "ranking",
+      "charts": [
+        {
+          "id": 13,
+          "name": "順位横棒グラフ",
+          "question": "長い名称のカテゴリをどの順に並べるか？",
+          "file": "charts/ja/ranking/02-01.svg"
+        },
+        {
+          "id": 14,
+          "name": "順位縦棒グラフ",
+          "question": "短い名称のカテゴリの順位と差は？",
+          "file": "charts/ja/ranking/02-02.svg"
+        },
+        {
+          "id": 15,
+          "name": "順位比例シンボル",
+          "question": "規模差が大きいとき順位と量をどう同時に読むか？",
+          "file": "charts/ja/ranking/02-03.svg"
+        },
+        {
+          "id": 16,
+          "name": "順位ストリッププロット",
+          "question": "多数の対象は一つの尺度上でどう並ぶか？",
+          "file": "charts/ja/ranking/02-04.svg"
+        },
+        {
+          "id": 17,
+          "name": "スロープグラフ",
+          "question": "二時点で誰が上昇・下降し、順位は逆転するか？",
+          "file": "charts/ja/ranking/02-05.svg"
+        },
+        {
+          "id": 18,
+          "name": "ロリポップチャート",
+          "question": "順位の中でどの値を強調すべきか？",
+          "file": "charts/ja/ranking/02-06.svg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "偏差",
+      "question": "同じ基準からどの程度離れているか？",
+      "directory": "deviation",
+      "charts": [
+        {
+          "id": 19,
+          "name": "発散横棒グラフ",
+          "question": "どのカテゴリが共通基準を上回る・下回るか？",
+          "file": "charts/ja/deviation/03-01.svg"
+        },
+        {
+          "id": 20,
+          "name": "発散積み上げ棒",
+          "question": "否定側と肯定側の構成はどうなっているか？",
+          "file": "charts/ja/deviation/03-02.svg"
+        },
+        {
+          "id": 21,
+          "name": "スパインチャート",
+          "question": "二つの比率は50％の境界を越えるか？",
+          "file": "charts/ja/deviation/03-03.svg"
+        },
+        {
+          "id": 22,
+          "name": "黒字／赤字面グラフ",
+          "question": "いつ基準線を越え、偏差はどの程度か？",
+          "file": "charts/ja/deviation/03-04.svg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "規模",
+      "question": "対象ごとの絶対的な大きさはどの程度違うか？",
+      "directory": "magnitude",
+      "charts": [
+        {
+          "id": 23,
+          "name": "縦棒グラフ",
+          "question": "短い名称のカテゴリ間で絶対量をどう比較するか？",
+          "file": "charts/ja/magnitude/04-01.svg"
+        },
+        {
+          "id": 24,
+          "name": "横棒グラフ",
+          "question": "長い名称のカテゴリ間で絶対量をどう比較するか？",
+          "file": "charts/ja/magnitude/04-02.svg"
+        },
+        {
+          "id": 25,
+          "name": "ペア縦棒",
+          "question": "各カテゴリの同単位二値をどう比較するか？",
+          "file": "charts/ja/magnitude/04-03.svg"
+        },
+        {
+          "id": 26,
+          "name": "ペア横棒",
+          "question": "長い名称のカテゴリで二値の差はどの程度か？",
+          "file": "charts/ja/magnitude/04-04.svg"
+        },
+        {
+          "id": 27,
+          "name": "比例積み上げ棒",
+          "question": "一つの総量の中で規模と比率をどう読むか？",
+          "file": "charts/ja/magnitude/04-05.svg"
+        },
+        {
+          "id": 28,
+          "name": "比例シンボル",
+          "question": "大きな規模差をどう圧縮して示すか？",
+          "file": "charts/ja/magnitude/04-06.svg"
+        },
+        {
+          "id": 29,
+          "name": "単位ピクトグラム",
+          "question": "整数や概数を固定単位で直感的に示せるか？",
+          "file": "charts/ja/magnitude/04-07.svg"
+        },
+        {
+          "id": 30,
+          "name": "ロリポップ比較",
+          "question": "比較を保ちながら描画量を減らすには？",
+          "file": "charts/ja/magnitude/04-08.svg"
+        },
+        {
+          "id": 31,
+          "name": "レーダーチャート",
+          "question": "少数対象の標準化指標プロフィールは？",
+          "file": "charts/ja/magnitude/04-09.svg"
+        },
+        {
+          "id": 32,
+          "name": "平行座標",
+          "question": "複数指標にどんなパターンや外れ値があるか？",
+          "file": "charts/ja/magnitude/04-10.svg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "分布",
+      "question": "値はどこに集中し、どの程度ばらつき、偏っているか？",
+      "directory": "distribution",
+      "charts": [
+        {
+          "id": 33,
+          "name": "ヒストグラム",
+          "question": "連続分布の形とピークはどこか？",
+          "file": "charts/ja/distribution/05-01.svg"
+        },
+        {
+          "id": 34,
+          "name": "箱ひげ図",
+          "question": "中央値、四分位、外れ値をどう比較するか？",
+          "file": "charts/ja/distribution/05-02.svg"
+        },
+        {
+          "id": 35,
+          "name": "バイオリンプロット",
+          "question": "密度は多峰性または偏りを持つか？",
+          "file": "charts/ja/distribution/05-03.svg"
+        },
+        {
+          "id": 36,
+          "name": "人口ピラミッド",
+          "question": "二つの排他的集団は年齢層別にどう分布するか？",
+          "file": "charts/ja/distribution/05-04.svg"
+        },
+        {
+          "id": 37,
+          "name": "ストリップ分布",
+          "question": "各観測値はどこにあり、集中域はどこか？",
+          "file": "charts/ja/distribution/05-05.svg"
+        },
+        {
+          "id": 38,
+          "name": "ドットスタック",
+          "question": "離散値の頻度はどう積み上がるか？",
+          "file": "charts/ja/distribution/05-06.svg"
+        },
+        {
+          "id": 39,
+          "name": "バーコードプロット",
+          "question": "一次元データはどこで密・疎になるか？",
+          "file": "charts/ja/distribution/05-07.svg"
+        },
+        {
+          "id": 40,
+          "name": "累積分布曲線",
+          "question": "ある閾値以下の観測は何割か？",
+          "file": "charts/ja/distribution/05-08.svg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "相関",
+      "question": "二つまたは三つの変数は連動しているか？",
+      "directory": "correlation",
+      "charts": [
+        {
+          "id": 41,
+          "name": "散布図",
+          "question": "二つの連続変数に関係はあるか？",
+          "file": "charts/ja/correlation/06-01.svg"
+        },
+        {
+          "id": 42,
+          "name": "折れ線＋縦棒",
+          "question": "一つの量の変化は別の量と連動するか？",
+          "file": "charts/ja/correlation/06-02.svg"
+        },
+        {
+          "id": 43,
+          "name": "接続散布図",
+          "question": "二変数の位置は時間とともにどう動くか？",
+          "file": "charts/ja/correlation/06-03.svg"
+        },
+        {
+          "id": 44,
+          "name": "バブルチャート",
+          "question": "第三の量は二次元関係の解釈を変えるか？",
+          "file": "charts/ja/correlation/06-04.svg"
+        },
+        {
+          "id": 45,
+          "name": "二次元ヒートマップ",
+          "question": "二つの順序尺度はどの組み合わせに集中するか？",
+          "file": "charts/ja/correlation/06-05.svg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "部分と全体",
+      "question": "各部分は全体をどのように構成しているか？",
+      "directory": "part-to-whole",
+      "charts": [
+        {
+          "id": 46,
+          "name": "積み上げ縦棒",
+          "question": "期ごとの総量と構成はどう同時に変わるか？",
+          "file": "charts/ja/part-to-whole/07-01.svg"
+        },
+        {
+          "id": 47,
+          "name": "100％積み上げ横棒",
+          "question": "グループ間で構成比をどう比較するか？",
+          "file": "charts/ja/part-to-whole/07-02.svg"
+        },
+        {
+          "id": 48,
+          "name": "円グラフ",
+          "question": "少数の部分は全体の何割か？",
+          "file": "charts/ja/part-to-whole/07-03.svg"
+        },
+        {
+          "id": 49,
+          "name": "ドーナツチャート",
+          "question": "一つの全体で主要部分はどの程度か？",
+          "file": "charts/ja/part-to-whole/07-04.svg"
+        },
+        {
+          "id": 50,
+          "name": "ツリーマップ",
+          "question": "階層内の面積構成と大項目は？",
+          "file": "charts/ja/part-to-whole/07-05.svg"
+        },
+        {
+          "id": 51,
+          "name": "ボロノイ構成図",
+          "question": "不規則領域で全体の比率を表せるか？",
+          "file": "charts/ja/part-to-whole/07-06.svg"
+        },
+        {
+          "id": 52,
+          "name": "円弧構成図",
+          "question": "総量の達成度や段階進捗は？",
+          "file": "charts/ja/part-to-whole/07-07.svg"
+        },
+        {
+          "id": 53,
+          "name": "ワッフルチャート",
+          "question": "百分率を数えられる100単位にどう変換するか？",
+          "file": "charts/ja/part-to-whole/07-08.svg"
+        },
+        {
+          "id": 54,
+          "name": "集合関係図",
+          "question": "二集合の固有部分と重複部分は？",
+          "file": "charts/ja/part-to-whole/07-09.svg"
+        },
+        {
+          "id": 55,
+          "name": "ウォーターフォール",
+          "question": "増減項は起点から終点へどう累積するか？",
+          "file": "charts/ja/part-to-whole/07-10.svg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "フローと関係",
+      "question": "状態、場所、主体の間をどのように移動するか？",
+      "directory": "flow-and-relationship",
+      "charts": [
+        {
+          "id": 56,
+          "name": "サンキー図",
+          "question": "加算可能な総量は出所から行先へどう配分されるか？",
+          "file": "charts/ja/flow-and-relationship/08-01.svg"
+        },
+        {
+          "id": 57,
+          "name": "ウォーターフォール・ブリッジ",
+          "question": "連続する増減は起点を終点へどう動かすか？",
+          "file": "charts/ja/flow-and-relationship/08-02.svg"
+        },
+        {
+          "id": 58,
+          "name": "コード図",
+          "question": "少数グループ間の双方向関係はどの程度か？",
+          "file": "charts/ja/flow-and-relationship/08-03.svg"
+        },
+        {
+          "id": 59,
+          "name": "ネットワーク図",
+          "question": "誰と誰がつながり、中心・群落・橋渡しはどこか？",
+          "file": "charts/ja/flow-and-relationship/08-04.svg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "空間",
+      "question": "正確な数値より位置や地理的パターンが重要か？",
+      "directory": "spatial",
+      "charts": [
+        {
+          "id": 60,
+          "name": "階級区分図",
+          "question": "率や標準化指標は地域間でどう変わるか？",
+          "file": "charts/ja/spatial/09-01.svg"
+        },
+        {
+          "id": 61,
+          "name": "比例シンボル地図",
+          "question": "各地点の絶対量や規模はどの程度か？",
+          "file": "charts/ja/spatial/09-02.svg"
+        },
+        {
+          "id": 62,
+          "name": "フロー地図",
+          "question": "対象はどこからどこへ移動するか？",
+          "file": "charts/ja/spatial/09-03.svg"
+        },
+        {
+          "id": 63,
+          "name": "等値線図",
+          "question": "連続面上で同じ値に達する場所は？",
+          "file": "charts/ja/spatial/09-04.svg"
+        },
+        {
+          "id": 64,
+          "name": "等面積カルトグラム",
+          "question": "実面積が地域比較へ与える影響をどう除くか？",
+          "file": "charts/ja/spatial/09-05.svg"
+        },
+        {
+          "id": 65,
+          "name": "面積カルトグラム",
+          "question": "地域面積で数量を直接表すには？",
+          "file": "charts/ja/spatial/09-06.svg"
+        },
+        {
+          "id": 66,
+          "name": "ドット密度地図",
+          "question": "数量は地域内のどこに概ね集中するか？",
+          "file": "charts/ja/spatial/09-07.svg"
+        },
+        {
+          "id": 67,
+          "name": "空間ヒートマップ",
+          "question": "連続空間の高密度ホットスポットはどこか？",
+          "file": "charts/ja/spatial/09-08.svg"
+        }
+      ]
+    }
+  ],
+  "design_language": "Contemporary synthesis inspired by Kano-school kinpeki screens and ukiyo-e woodblock print grammar",
+  "palette": "tokens/kinpeki-ukiyo-colors.json",
+  "locale": "ja"
+}
