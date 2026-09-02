@@ -1,0 +1,31 @@
+{
+  "name": "Kinpeki Ukiyo",
+  "version": "1.0.0",
+  "note": "High-chroma new-impression palette for contemporary screens; the reference artwork remains unaltered and the palette is not a scientific reconstruction of historical pigments.",
+  "roles": {
+    "paper": {"name": "胡粉纸", "hex": "#FBF3DE", "use": "page and plot background"},
+    "ink": {"name": "墨", "hex": "#181A1B", "use": "type, axes, keylines and benchmarks"},
+    "mutedInk": {"name": "薄墨", "hex": "#655F53", "use": "secondary labels"},
+    "rule": {"name": "薄墨线", "hex": "#C8B990", "use": "quiet grid and dividers"},
+    "primary": {"name": "普蓝", "hex": "#0069A6", "use": "single-series and primary data marks"},
+    "primaryText": {"name": "深普蓝", "hex": "#004B7A", "use": "small blue text and links on paper"},
+    "alert": {"name": "鲜朱", "hex": "#E24832", "use": "focal marks, anomalies and risk"},
+    "alertText": {"name": "深朱", "hex": "#B83326", "use": "small vermilion text on paper"},
+    "secondary": {"name": "緑青", "hex": "#3A8A5C", "use": "second-series data marks"},
+    "secondaryText": {"name": "深緑青", "hex": "#2F6D49", "use": "small green text on paper"},
+    "tertiary": {"name": "明黄", "hex": "#E2A228", "use": "third-series and warm midpoint marks"},
+    "tertiaryText": {"name": "深黄", "hex": "#905D0B", "use": "small yellow-orange text on paper"},
+    "quaternary": {"name": "藤紫", "hex": "#8D4B8E", "use": "fourth category when identity matters"},
+    "quaternaryText": {"name": "深藤紫", "hex": "#713C73", "use": "small purple text on paper"},
+    "gold": {"name": "亮金", "hex": "#E0B53A", "use": "screen seams, section markers and small highlights"},
+    "goldText": {"name": "深金", "hex": "#81620B", "use": "small gold-related text on paper"}
+  },
+  "policy": {
+    "singleSeries": ["#0069A6", "#181A1B", "#FBF3DE"],
+    "binary": ["#0069A6", "#E24832", "#181A1B", "#FBF3DE"],
+    "categoricalMaximum": ["#0069A6", "#E24832", "#3A8A5C", "#E2A228", "#8D4B8E"],
+    "smallTextUsesDeepVariants": true,
+    "neverColorOnly": true,
+    "markGradientsAllowed": false
+  }
+}
