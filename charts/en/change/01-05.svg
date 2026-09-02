@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="chart-svg woodblock-chart" data-style="kinpeki-ukiyo" role="img" aria-labelledby="chart-5-title chart-5-desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" width="360" height="190">
+  <style>:root{--paper:#fbf3de;--ink:#181a1b;--muted:#655f53;--rule:#c8b990;--vermilion:#e24832;--aizuri:#0069a6;--rokusho:#3a8a5c;--kuchiba:#e2a228;--fuji:#8d4b8e;--gold:#e0b53a}
+*{vector-effect:non-scaling-stroke}
+text{font-family:"Source Han Sans SC","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif;fill:var(--ink)}
+.label,.value,.value-light,.big-value,.note,.tick,.axis-title{font-size:12px}
+.value,.big-value{font-weight:700;font-variant-numeric:tabular-nums}.big-value{font-size:18px}
+.value-light{font-weight:700;fill:var(--paper)}.tick,.axis-title{fill:var(--muted)}
+.axis{stroke:var(--ink);stroke-width:1}.grid{stroke:var(--rule);stroke-width:.8;stroke-dasharray:2 5;opacity:.7}
+.reference,.stem{stroke:var(--ink);stroke-width:1.1}.red{stroke:var(--vermilion);stroke-width:2.5;stroke-dasharray:8 5}.blue{stroke:var(--aizuri);stroke-width:2.5}.green{stroke:var(--rokusho);stroke-width:2.5;stroke-dasharray:2 4}.gold{stroke:var(--kuchiba);stroke-width:2.5;stroke-dasharray:1 4}
+[fill="#0069a6"],[fill="#e24832"],[fill="#3a8a5c"],[fill="#e2a228"],[fill="#8d4b8e"],[fill="#8cc7df"],[fill="#f5a08b"],[fill="#9ed0ab"]{stroke:var(--ink);stroke-width:.65;stroke-linejoin:round;paint-order:stroke fill}
+[stroke="#e24832"]{stroke-dasharray:8 5}[stroke="#3a8a5c"]{stroke-dasharray:2 4}[stroke="#e2a228"]{stroke-dasharray:1 4}
+path,polyline,line{stroke-linecap:round;stroke-linejoin:round}</style><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/><rect class="ukiyo-paper" x="0" y="0" width="360" height="190" fill="#fbf3de"/>
+  <title id="chart-5-title">Time slope chart</title>
+  <desc id="chart-5-desc">What changed between two key moments?</desc>
+  <line x1="76" y1="24" x2="76" y2="160" class="axis"/>
+  <line x1="284" y1="24" x2="284" y2="160" class="axis"/>
+  <line x1="76" y1="78.39999999999999" x2="284" y2="49.599999999999994" class="" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="76" cy="78.39999999999999" r="3.5" fill="#fbf3de" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="284" cy="49.599999999999994" r="3.5" fill="#0069a6"/>
+  <text x="68" y="82.39999999999999" class="value" text-anchor="end">42</text>
+  <text x="292" y="53.599999999999994" class="value" text-anchor="start">58</text>
+  <line x1="76" y1="55" x2="284" y2="65.8" class="" stroke="#e24832" stroke-width="2"/>
+  <circle cx="76" cy="55" r="3.5" fill="#fbf3de" stroke="#e24832" stroke-width="2"/>
+  <circle cx="284" cy="65.8" r="3.5" fill="#e24832"/>
+  <text x="68" y="59" class="value" text-anchor="end">55</text>
+  <text x="292" y="69.8" class="value" text-anchor="start">49</text>
+  <line x1="76" y1="85.6" x2="284" y2="60.39999999999999" class="" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="76" cy="85.6" r="3.5" fill="#fbf3de" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="284" cy="60.39999999999999" r="3.5" fill="#0069a6"/>
+  <text x="68" y="89.6" class="value" text-anchor="end">38</text>
+  <text x="292" y="64.39999999999999" class="value" text-anchor="start">52</text>
+  <line x1="76" y1="44.2" x2="284" y2="31.599999999999994" class="" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="76" cy="44.2" r="3.5" fill="#fbf3de" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="284" cy="31.599999999999994" r="3.5" fill="#0069a6"/>
+  <text x="68" y="48.2" class="value" text-anchor="end">61</text>
+  <text x="292" y="35.599999999999994" class="value" text-anchor="start">68</text>
+  <line x1="76" y1="69.39999999999999" x2="284" y2="47.8" class="" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="76" cy="69.39999999999999" r="3.5" fill="#fbf3de" stroke="#0069a6" stroke-width="2"/>
+  <circle cx="284" cy="47.8" r="3.5" fill="#0069a6"/>
+  <text x="68" y="73.39999999999999" class="value" text-anchor="end">47</text>
+  <text x="292" y="51.8" class="value" text-anchor="start">59</text>
+  <text x="76" y="180" class="axis-title" text-anchor="middle">Start</text>
+  <text x="284" y="180" class="axis-title" text-anchor="middle">End</text>
+</svg>
