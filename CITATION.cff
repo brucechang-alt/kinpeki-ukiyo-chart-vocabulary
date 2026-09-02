@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this design system, please cite it as below."
+title: "Kinpeki Ukiyo Chart Vocabulary"
+type: software
+authors:
+  - name: "AI Reporter contributors"
+version: "1.0.0"
+date-released: 2026-09-02
+license: CC-BY-4.0
+repository-code: "https://github.com/brucechang-alt/kinpeki-ukiyo-chart-vocabulary"
+url: "https://brucechang-alt.github.io/kinpeki-ukiyo-chart-vocabulary/"

@@ -1,0 +1,1 @@
+# Static HTML/SVG package. No Python runtime dependencies are required.
